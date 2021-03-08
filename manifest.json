@@ -1,0 +1,12 @@
+{
+  "name": "ScribbliWordsExtension",
+  "version": "1.0",
+  "description": "Extension to load custom word list for Scribbli",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["https://skribbl.io/*"],
+      "js": ["main.js"]
+    }
+  ]
+}
